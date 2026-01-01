@@ -1,3 +1,5 @@
+
+import Profile from "../assets/images/Profile.png";
 const Hero = () => {
   return (
     <div className='Hero'>
@@ -16,7 +18,7 @@ const Hero = () => {
             </div>
         </div>
         <div className='right'>
-               <img src= "public/images/profile.png" alt="profile" className="profile" />
+               <img src= {Profile} alt="profile" className="profile" />
 
         </div> 
       

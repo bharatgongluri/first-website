@@ -1,3 +1,7 @@
+import dashboard1 from "../assets/images/dashboard1.jpg";
+import dashboard2 from "../assets/images/dashboard2.jpg";
+import dashboard3 from "../assets/images/dashboard3.jpg";
+import dashboard4 from "../assets/images/dashboard4.jpg";
 const Works = () => {
   return (
     
@@ -5,7 +9,7 @@ const Works = () => {
         <h1 className="heading">Featured Work</h1>
         <div className="work1">
             <div className="left">
-                <img src="public/images/dashboard1.jpg" alt="dashboard1" />
+                <img src={dashboard1} alt="dashboard1" />
             </div>
             <div className="right">       
               <h2 className="Workfirst">Designing Dashboards</h2>
@@ -27,7 +31,7 @@ const Works = () => {
         </div>
         <div className="work2">
          <div className="left">
-           <img src="public/images/dashboard2.jpg" alt="dashboard2" />
+           <img src={dashboard2} alt="dashboard2" />
          </div>
          <div className="right">
           <h2 className="Work2">Vibrant Portraits Of 2020</h2>
@@ -47,7 +51,7 @@ const Works = () => {
 
         <div className="work3">
          <div className="left">
-          <img src="public/images/dashboard3.jpg" alt="dashboard3" />
+          <img src={dashboard3} alt="dashboard3" />
          </div>
          <div className="right">
           <h2 className="Work3">36 Days of Malayalam Type</h2>
@@ -137,7 +141,7 @@ const Works = () => {
         <h1 className="heading6"><u>Works</u></h1>
         <div className="work1">
             <div className="left">
-                <img src="public/images/dashboard1.jpg" alt="dashboard1" />
+                <img src={dashboard1} alt="dashboard1" />
             </div>
             <div className="right">       
               <h2 className="Workfirst">Designing Dashboards</h2>
@@ -159,7 +163,7 @@ const Works = () => {
         </div>
         <div className="work2">
          <div className="left">
-           <img src="public/images/dashboard2.jpg" alt="dashboard2" />
+           <img src={dashboard2} alt="dashboard2" />
          </div>
          <div className="right">
           <h2 className="Work2">Vibrant Portraits Of 2020</h2>
@@ -179,7 +183,7 @@ const Works = () => {
 
         <div className="work3">
          <div className="left">
-          <img src="public/images/dashboard3.jpg" alt="dashboard3" />
+          <img src={dashboard3} alt="dashboard3" />
          </div>
          <div className="right">
           <h2 className="Work3">36 Days of Malayalam Type</h2>
@@ -194,7 +198,7 @@ const Works = () => {
         </div>
         <div className="work1">
             <div className="left">
-                <img src="public/images/dashboard4.jpg" className="dashboard6" alt="dashboard4" />
+                <img src={dashboard4} className="dashboard6" alt="dashboard4" />
             </div>
             <div className="right">       
               <h2 className="Workfirst">Designing Dashboards</h2>

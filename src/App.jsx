@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Posts from './components/Posts'; 
 import Works from './components/Works';
 
+
 import Footer from './components/Footer';
 
 const App = () => {
