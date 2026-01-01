@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.header {
+  display: flex;      
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.header li{
+    margin-right: 20px;
+}
+
+.Hero{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+  text-align: end;
+  padding-right: 30px;
+
+}
+
+
+.profile{
+  height: 200px;
+  width: 200px;
+  padding-top: 10px;
+
+}
+
+.left{
+    
+    width: 60%;
+    margin-left: 10px;
+}   
+
+.title{
+  margin-bottom: 1px;
+}
+
+.btn{
+  .btn1{
+    margin-bottom: 30px;
+   background-color: red;  
+   color: white;            
+   border: none;
+   padding: 12px 24px;
+   cursor: pointer;
+  }
+}
+
+.btn1:hover{
+  background-color:orange;
+  border: 1px solid red;
+  padding-left: 10px;
+
+}
+
+.postheader{
+  background-color: #edf7ed;
+  padding: 1pxpx 80px;
+}
+
+.postheader1{
+  display: flex;
+  justify-content: space-between;
+  gap: 1000px;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+.recent-post{
+  background-color: transparent;
+  color: rgba(112, 109, 109, 0.979);            
+  border: none;
+  padding-left: 10px;
+}
+
+.postgrid{
+  display: flex;
+  padding: 20px;  
+  gap: 20px;
+}
+.postcard{
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+
+}
+img{
+  width: 380px;
+
+}
+.work1 ,.work2,.work3{
+  display: flex;
+  padding-top: 10px;
+  width: 840px;
+  max-height: 600px;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  gap: 40px;
+  
+}
+
+.dashboard6{
+  padding-top: 10px;
+}
+.right{
+
+  text-align: justify;
+}
+.heading{
+  padding-left: 20px;
+  font-size: medium;
+  font-weight: 500;
+  color: darkolivegreen;
+}
+.fraturedwork{
+  padding: justify;
+
+}
+
+.subright{
+   margin-bottom: 0%;
+   display: flex;
+   gap: 20px;  
+   color: white;            
+   border: none;
+   padding: 12px 24px;
+
+}
+.para{
+  margin-top: 0;
+}
+
+.year{
+   margin-bottom: 30px;
+   background-color: rgb(53, 45, 45);  
+   color: rgba(246, 241, 241, 0.925);            
+   border: none;
+   padding: 10px 10px;
+   border-radius: 5px;
+  
+}
+
+.dashboard{
+  margin-bottom: 30px;
+   background-color: transparent;  
+   color: rgba(112, 109, 109, 0.979);            
+   border: none;
+   padding: 10px 10px;
+   border-radius: 5px;
+
+}
+
+.social-img{
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  padding: 30px;
+  padding-right: 20px;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  padding-top: 10px;
+
+}
+.footer{
+  text-align: center;
+  padding-left: 40px;
+}
+
+.footer p{
+  padding-left: 40px;
+}
+.Blog1{
+  padding: 10px;
+  padding-right: 500px;
+  padding-top: 26px;
+}
+
+.blogheader1 ,.blogheader2,.blogheader3,.blogheader4{
+  border-bottom: 1px solid brown;
+
+
+
+}
+.blogyear{
+  display: flex;
+  gap: 10px;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+.yearbeside{
+  color: rgb(106, 118, 134)  ;
+}
+
+.info{
+  padding-top:60px;
+}
