@@ -2,10 +2,9 @@
 body{
     font-family: "Poppins", sans-serif;
     background-color: white;
-    padding: 20px;
+    padding: 30px;
 }
 .Navbar {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
   padding-right: 40px;
@@ -219,3 +218,6 @@ img{
 .info{
   padding-top:60px;
 }
+
+
+
